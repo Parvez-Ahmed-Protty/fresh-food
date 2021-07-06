@@ -103,3 +103,28 @@ h2 {
     line-height: 12px;
     text-align: center;
 }
+.flexible-container-teem{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.teem-section{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.teem-title{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.member{
+    width: 21%;
+    margin-left: 4%;
+    text-align: center;
+    padding: 3%;
+}
+.member img {
+    width: 100%;
+    border-radius: 50%;
+}

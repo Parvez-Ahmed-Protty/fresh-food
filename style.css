@@ -2,6 +2,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+h2 {
+    font-size: 40px;
+    color: #5f5f5f;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 80px;
@@ -48,10 +52,7 @@ body{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
 }
-.half-width h2 {
-    font-size: 40px;
-    color: #5f5f5f;
-}
+
 .half-width .about {
     width: 400px;
     color: black;
@@ -60,4 +61,31 @@ body{
 .about-text {
     padding-top: 5%;
     padding-left: 5%;
+}
+.our-resipie-title{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.flexible-container-resipie{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+}
+.items{
+    box-shadow: 10px 10px 40px #ddd;
+    margin-left: 2%;
+    padding: 20px 0px 10px 18px;
+    border-radius: 20px;
+}
+.items:first-child{
+    margin-left: 0;
+}
+.items img{
+    width: 95%;
+
+}
+.items h3 {
+    font-size: 25px;
+    font-weight: 800;
 }

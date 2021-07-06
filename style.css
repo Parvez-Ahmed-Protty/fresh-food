@@ -157,3 +157,15 @@ h2 {
 .contact p{
     line-height: 2em;
 }
+.footer-section{
+    text-align: center;
+    background-color: #020213;
+    padding: 25px 0px;
+}
+.footer-section h3{
+    font-size: 30px;
+    color:#5f5f5f;
+}
+.footer-section p{
+    color: #ddd;
+}

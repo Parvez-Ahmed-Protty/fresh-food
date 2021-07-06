@@ -68,41 +68,38 @@ h2 {
 }
 .flexible-container-resipie{
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 100px;
 }
-.items{
-    box-shadow: 10px 10px 40px #ddd;
+.items  {
+    width:29.3%;
     margin-left: 2%;
-    padding: 20px 0px 10px 18px;
-    border-radius: 20px;
-}
-.items:first-child{
-    margin-left: 0;
+    margin-right: 2%;
+    box-shadow: 5px 5px 60px #ddd;
+    padding: 1%;
+    border-radius: 15px;
 }
 .items img{
-    width: 95%;
-
+    width: 100%;
 }
 .items h3 {
     font-size: 25px;
     font-weight: 800;
 }
-.followers{
+.flexible-container-populer{
     display: flex;
-    width:90% ;
-    height: 180px;
-    box-shadow: 1px 1px 60px #c2c0c0;
-    margin:  0 auto;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 60px #ddd;
     margin-bottom: 100px;
     border-radius: 15px;
 }
-.followers-people{
-    width: 33.33%;
-    text-align: center;
+.populer{
+    margin-left: 15%;
 }
-.followers-people h2{
+.populer h2 {
     color: black;
-    font-size: 45px;
+    line-height: 12px;
+    text-align: center;
 }

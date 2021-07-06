@@ -128,3 +128,32 @@ h2 {
     width: 100%;
     border-radius: 50%;
 }
+.flexible-container-contact{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.form{
+    width: 60%;
+}
+.contact{
+    width: 40%;
+}
+.form-input{
+    width: 70%;
+    height: 20px;
+    margin-bottom: 3%;
+    padding: 10px;
+}
+.submit-btn{
+    background-image: linear-gradient(#ffa967,#FE4F30);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.contact p{
+    line-height: 2em;
+}
